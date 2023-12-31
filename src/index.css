@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  /* background-image: url(assets/images/background.svg);
+  background-position: center;
+  background-size: cover; */
+  /* background-repeat: no-repeat; */
+  /* background: rgb(255, 255, 255);
+  background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(186, 218, 255, 1) 40%); */
+  /* background: rgb(255, 255, 255);
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(186, 218, 255, 1) 58%); */
+    background: rgb(255, 255, 255);
+      background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(186, 218, 255, 1) 100%);
+      overflow-y: hidden;
+}
+
+@media screen and (max-width: 600px) {
+  body{
+    overflow-y: scroll;
+  }
+}
